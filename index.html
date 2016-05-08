@@ -1,0 +1,157 @@
+﻿
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicacion</title>
+
+<!--GRUPO CSS-->
+<!--<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>-->
+<link rel="stylesheet" href="css/app7.min.css"/>
+
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- GRUPO JAVASCRIPT-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Batalla del 5 de Mayo</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Galeria de Fotos</h1>
+<iframe src="visor/wowsliderindex.html" style="width:960px;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<div>
+</div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>video</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gfJjtQwD4Bg" frameborder="0" allowfullscreen></iframe>
+<div>
+</div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>la Batalla del 5 de Mayo</h1>
+<div>
+ <h1>Consistio en </h1>
+<p>En 1861, la situación general del país era desastrosa debido a los muchos problemas políticos, sociales y económicos.
+
+            El gobierno no tenía dinero ni para pagar a sus empleados por lo que el Presidente Juárez tuvo que ordenar que se suspendieran los pagos de los préstamos que le habían hecho a México las potencias extranjeras.  Entonces España, Francia e Inglaterra se aliaron y enviaron un ejército para obligar a nuestro país a pagar su deuda.  El gobierno mexicano convenció a los representantes de Inglaterra y España de que se retiraran, pero los franceses no quisieron hacerlo, pues su emperador les había ordenado invadir México y establecer aquí una colonia francesa.</p>
+            <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','imagenes/11.jpg',1)"><img src="imagenes/12.jpg" width="327" height="225" id="Image2" /></a></p>
+<p>En las cumbres de Acultzingo se dio el primer combate entre las tropas mexicanas y las europeas, y en esa ocasión nuestro ejército sufrió una derrota.  Entonces el general Ignacio Zaragoza, que estaba al frente del Ejército de Oriente creado para defender a la patria de la invasión extranjera, preparó con mucho cuidado la defensa de la ciudad de Puebla, a donde se dirigían los invasores.  En la mañana del 5 de Mayo de 1862, los franceses intentaron apoderarse de los fuertes de Loreto y Guadalupe, pero las tres veces que atacaron fueron rechazados por los soldados de Zaragoza, apoyados por indios zacapoxtlas de las sierra de Puebla.  En las primeras horas de la tarde de ese día, la derrota del ejército francés considerado entonces como uno de los mejores del mundo era un hecho consumado.</p>
+<p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','imagenes/10.jpg',4)"><img src="imagenes/2.jpg" width="327" height="225" id="Image3" /></a></p>
+
+<h3>“Señor Presidente: las armas nacionales se han cubierto de gloria…” le escribió el general Zaragoza a don Benito Juárez después de esta heroica batalla.</h3>
+
+
+
+
+<h2>Click Aqui</h2>
+  <a href=http://www.udg.mx/es/efemerides/05-mayo target="_blank"><img src="imagenes/1.jpg" width="25%"></a>
+</div>
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Personajes</h1>
+<div center align="center">
+   <h3>Ignacio Zaragoza</h3>
+  <img src="imagenes/ignacion.jpg" height="25%" width="25%">
+  <br>
+ <h3>Felipe Berriozabal</h3>
+  <img src="imagenes/felipe.jpg" height="25%" width="25%">
+  <br>
+  <h3>Porfirio Diaz</h3>
+  <img src="imagenes/porfirio.jpg" height="25%" width="25%">
+  <br>
+  <h3> Santiago Tapia</h3>
+  <img src="imagenes/santiago.jpg" height="25%" width="25%">
+  <br>
+  <h3>Ignacio Mejia</h3>
+  <img src="imagenes/mejia.jpg" height="25%" width="25%">
+  <br>
+  <h3>Miguel Negrete</h3>
+  <img src="imagenes/MIguel.jpg"  height="25%" width="25%">
+  <br>
+      </div>
+</div>
+<br>
+<br>
+<br>
+<div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+  <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Datos Generales de la Batalla</h2>
+    </a>
+  </li>
+  </ul>
+  
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Fatima Flores</h4>
+    <h4>7 aplicacion</h4>
+    <h4>5 de mayo</h4>
+      <img src="imagenes/icon.png" width="56" height="46">
+    </div>
+   </div>
+    </div>
+     </div>
+     <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Datos Interesantes</h1>
+    </div>
+     <div>
+      <p> La Batalla de Puebla fue el 5 de mayo de 1862</p>
+       <img src="imagenes/15.jpg" height="25%" width="25%">
+     <p>Tras la Guerra entre México y Estados Unidos en 1846, México se vio envuelto en una guerra civil y se empobreció de tal manera que tuvo que recurrir a la ayuda económica europea. Pero al no poder pagar las deudas contraídas con la Francia de Napoleón III, las tropas francesas invadieron México con la idea de llegar a la capital e instalar una monarquía, pero fueron detenidos en la ciudad de Puebla, por las valientes tropas mexicanas.</p>
+     <p> frente a los fuertes de Guadalupe y de Loreto que en aquella época estaba a las afueras de la ciudad</p>
+     <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','imagenes/13.jpg',5)"><img src="imagenes/14.jpg" width="327" height="225" id="Image4" /></a></p>
+        </div>
+     <div data-role="footer" align="center" data-theme="b">
+    <h4>Fatima Flores</h4>
+    <h4>7 aplicacion</h4>
+    <h4>5 de mayo</h4>
+      <img src="imagenes/icon.png" width="56" height="46">
+    </div>
+   </div>
+</div>
+</div>
+</body>
+</html>
+
+  
+  
